@@ -2,7 +2,6 @@ use actix_web::{middleware, App, HttpServer};
 use std::{env, io};
 
 mod controllers;
-
 use controllers::task;
 
 #[actix_web::main]
